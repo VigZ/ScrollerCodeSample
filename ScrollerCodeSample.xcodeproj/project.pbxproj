@@ -11,16 +11,8 @@
 		275A7FC127CBC1FB00ABE0F9 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FC027CBC1FB00ABE0F9 /* Tests_iOSLaunchTests.swift */; };
 		275A7FCB27CBC1FB00ABE0F9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FCA27CBC1FB00ABE0F9 /* Tests_macOS.swift */; };
 		275A7FCD27CBC1FB00ABE0F9 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FCC27CBC1FB00ABE0F9 /* Tests_macOSLaunchTests.swift */; };
-		275A7FCE27CBC1FB00ABE0F9 /* ScrollerCodeSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA327CBC1F900ABE0F9 /* ScrollerCodeSample.xcdatamodeld */; };
-		275A7FCF27CBC1FB00ABE0F9 /* ScrollerCodeSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA327CBC1F900ABE0F9 /* ScrollerCodeSample.xcdatamodeld */; };
-		275A7FD027CBC1FB00ABE0F9 /* ScrollerCodeSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA527CBC1F900ABE0F9 /* ScrollerCodeSampleApp.swift */; };
-		275A7FD127CBC1FB00ABE0F9 /* ScrollerCodeSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA527CBC1F900ABE0F9 /* ScrollerCodeSampleApp.swift */; };
-		275A7FD227CBC1FB00ABE0F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA627CBC1F900ABE0F9 /* ContentView.swift */; };
-		275A7FD327CBC1FB00ABE0F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA627CBC1F900ABE0F9 /* ContentView.swift */; };
-		275A7FD427CBC1FB00ABE0F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA727CBC1F900ABE0F9 /* Persistence.swift */; };
-		275A7FD527CBC1FB00ABE0F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FA727CBC1F900ABE0F9 /* Persistence.swift */; };
-		275A7FD627CBC1FB00ABE0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275A7FA827CBC1FB00ABE0F9 /* Assets.xcassets */; };
-		275A7FD727CBC1FB00ABE0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275A7FA827CBC1FB00ABE0F9 /* Assets.xcassets */; };
+		275A7FEB27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FEA27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift */; };
+		275A7FED27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FEC27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		275A7FA427CBC1F900ABE0F9 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		275A7FA527CBC1F900ABE0F9 /* ScrollerCodeSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerCodeSampleApp.swift; sourceTree = "<group>"; };
-		275A7FA627CBC1F900ABE0F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		275A7FA727CBC1F900ABE0F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		275A7FA827CBC1FB00ABE0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275A7FAD27CBC1FB00ABE0F9 /* ScrollerCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275A7FB327CBC1FB00ABE0F9 /* ScrollerCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275A7FB527CBC1FB00ABE0F9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -55,6 +42,8 @@
 		275A7FC627CBC1FB00ABE0F9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		275A7FCA27CBC1FB00ABE0F9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		275A7FCC27CBC1FB00ABE0F9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		275A7FEA27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerFeedImage.swift; sourceTree = "<group>"; };
+		275A7FEC27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerFeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +81,7 @@
 		275A7F9D27CBC1F900ABE0F9 = {
 			isa = PBXGroup;
 			children = (
-				275A7FA227CBC1F900ABE0F9 /* Shared */,
+				275A7FA227CBC1F900ABE0F9 /* ScrollerCodeSample */,
 				275A7FB427CBC1FB00ABE0F9 /* macOS */,
 				275A7FBD27CBC1FB00ABE0F9 /* Tests iOS */,
 				275A7FC927CBC1FB00ABE0F9 /* Tests macOS */,
@@ -100,16 +89,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		275A7FA227CBC1F900ABE0F9 /* Shared */ = {
+		275A7FA227CBC1F900ABE0F9 /* ScrollerCodeSample */ = {
 			isa = PBXGroup;
 			children = (
-				275A7FA527CBC1F900ABE0F9 /* ScrollerCodeSampleApp.swift */,
-				275A7FA627CBC1F900ABE0F9 /* ContentView.swift */,
-				275A7FA727CBC1F900ABE0F9 /* Persistence.swift */,
-				275A7FA827CBC1FB00ABE0F9 /* Assets.xcassets */,
-				275A7FA327CBC1F900ABE0F9 /* ScrollerCodeSample.xcdatamodeld */,
+				275A7FE927CBC64800ABE0F9 /* ScrollerRemote */,
+				275A7FE627CBC33F00ABE0F9 /* ScrollerCore */,
 			);
-			path = Shared;
+			path = ScrollerCodeSample;
 			sourceTree = "<group>";
 		};
 		275A7FAE27CBC1FB00ABE0F9 /* Products */ = {
@@ -147,6 +133,22 @@
 				275A7FCC27CBC1FB00ABE0F9 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		275A7FE627CBC33F00ABE0F9 /* ScrollerCore */ = {
+			isa = PBXGroup;
+			children = (
+				275A7FEA27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift */,
+				275A7FEC27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift */,
+			);
+			path = ScrollerCore;
+			sourceTree = "<group>";
+		};
+		275A7FE927CBC64800ABE0F9 /* ScrollerRemote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScrollerRemote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +236,7 @@
 				TargetAttributes = {
 					275A7FAC27CBC1FB00ABE0F9 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					275A7FB227CBC1FB00ABE0F9 = {
 						CreatedOnToolsVersion = 13.1;
@@ -274,7 +277,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275A7FD627CBC1FB00ABE0F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275A7FD727CBC1FB00ABE0F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275A7FD027CBC1FB00ABE0F9 /* ScrollerCodeSampleApp.swift in Sources */,
-				275A7FD427CBC1FB00ABE0F9 /* Persistence.swift in Sources */,
-				275A7FCE27CBC1FB00ABE0F9 /* ScrollerCodeSample.xcdatamodeld in Sources */,
-				275A7FD227CBC1FB00ABE0F9 /* ContentView.swift in Sources */,
+				275A7FED27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift in Sources */,
+				275A7FEB27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275A7FD127CBC1FB00ABE0F9 /* ScrollerCodeSampleApp.swift in Sources */,
-				275A7FD527CBC1FB00ABE0F9 /* Persistence.swift in Sources */,
-				275A7FCF27CBC1FB00ABE0F9 /* ScrollerCodeSample.xcdatamodeld in Sources */,
-				275A7FD327CBC1FB00ABE0F9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RH95SV2NG5;
@@ -495,6 +491,7 @@
 				PRODUCT_NAME = ScrollerCodeSample;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -505,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RH95SV2NG5;
@@ -641,7 +639,6 @@
 		275A7FE427CBC1FB00ABE0F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -666,7 +663,6 @@
 		275A7FE527CBC1FB00ABE0F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -737,19 +733,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		275A7FA327CBC1F900ABE0F9 /* ScrollerCodeSample.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				275A7FA427CBC1F900ABE0F9 /* Shared.xcdatamodel */,
-			);
-			currentVersion = 275A7FA427CBC1F900ABE0F9 /* Shared.xcdatamodel */;
-			path = ScrollerCodeSample.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 275A7F9E27CBC1F900ABE0F9 /* Project object */;
 }
