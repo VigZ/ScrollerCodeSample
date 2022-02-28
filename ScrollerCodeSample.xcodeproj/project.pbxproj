@@ -14,6 +14,7 @@
 		2743603727CBCF7D002A8BC9 /* XCTestCase+MemoryTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743603627CBCF7D002A8BC9 /* XCTestCase+MemoryTracking.swift */; };
 		2743603927CBCFDF002A8BC9 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743603827CBCFDF002A8BC9 /* HTTPClientSpy.swift */; };
 		2743603B27CBD077002A8BC9 /* RemoteLoadUseCase+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743603A27CBD077002A8BC9 /* RemoteLoadUseCase+Helpers.swift */; };
+		2743603D27CD022A002A8BC9 /* RemoteFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743603C27CD022A002A8BC9 /* RemoteFeedImage.swift */; };
 		275A7FEB27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FEA27CBC6AC00ABE0F9 /* ScrollerFeedImage.swift */; };
 		275A7FED27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A7FEC27CBC6D400ABE0F9 /* ScrollerFeedLoader.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		2743603627CBCF7D002A8BC9 /* XCTestCase+MemoryTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryTracking.swift"; sourceTree = "<group>"; };
 		2743603827CBCFDF002A8BC9 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		2743603A27CBD077002A8BC9 /* RemoteLoadUseCase+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteLoadUseCase+Helpers.swift"; sourceTree = "<group>"; };
+		2743603C27CD022A002A8BC9 /* RemoteFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImage.swift; sourceTree = "<group>"; };
 		275A7FAD27CBC1FB00ABE0F9 /* ScrollerCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275A7FB327CBC1FB00ABE0F9 /* ScrollerCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275A7FB527CBC1FB00ABE0F9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				2743602D27CBCB5A002A8BC9 /* HTTPClient.swift */,
 				2743602F27CBCBCF002A8BC9 /* RemoteScrollerFeedLoader.swift */,
 				2743603127CBCC51002A8BC9 /* ScrollerFeedMapper.swift */,
+				2743603C27CD022A002A8BC9 /* RemoteFeedImage.swift */,
 			);
 			path = ScrollerRemote;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				2743603427CBCE9C002A8BC9 /* RemoteLoadUseCaseTests.swift in Sources */,
 				2743603727CBCF7D002A8BC9 /* XCTestCase+MemoryTracking.swift in Sources */,
 				2743603B27CBD077002A8BC9 /* RemoteLoadUseCase+Helpers.swift in Sources */,
+				2743603D27CD022A002A8BC9 /* RemoteFeedImage.swift in Sources */,
 				2743603027CBCBCF002A8BC9 /* RemoteScrollerFeedLoader.swift in Sources */,
 				2743602E27CBCB5A002A8BC9 /* HTTPClient.swift in Sources */,
 			);
