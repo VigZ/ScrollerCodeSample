@@ -19,6 +19,8 @@ A proper modular system generally attempts to minimize source code dependencies 
 
 I typically will construct a Composition Root module, which composes every other module together, and this allows me to inject the dependencies through the system, passing only what is truly needed for each module. (Trying to keep those SOLID principles throughout!)
 
+![Dependencies](ScrollerSampleDiagram2.drawio.png)
+
 The above diagram illustrates the dependencies of each individual component with solid arrows pointing to a dependency and dotted arrows pointing to a concrete implementation of a protocol interface. I attempted to eliminate dependencies between modules provide a small surface area of contact, and such that all modules point towards the core data types of the application. (Note the URLSession concrete implemenation is not included in this example, but is included here in the diagram as an example of an HTTPClient implementation. This could easily be an external framework or whatever interpretation of Remote suits the business needs.)
 
 ## Testing
