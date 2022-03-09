@@ -33,7 +33,7 @@ public final class RemoteScrollerFeedLoader: ScrollerFeedLoader {
         }
     }
     
-    private static func map(_ data: Data, from response: HTTPURLResponse -> ScrollerFeedLoader.Result {
+    private static func map(_ data: Data, from response: HTTPURLResponse -> ScrollerFeedLoader.Result) {
         do {
             let items = try ScrollerFeedMapper.map(data, from: response)
             return .success(items.toModel())
