@@ -26,10 +26,25 @@ public final class RemoteScrollerFeedLoader: ScrollerFeedLoader {
             guard self != nil else { return }
             switch result {
             case let .success((data, response)):
-                completion(ScrollerFeedMapper.map(data, from: response))
+                completion(RemoteScrollerFeedLoader.map(data, from: response))
             case .failure:
                 completion(.failure(Error.connectivity))
             }
         }
     }
+    
+    private static func map(_ data: Data, from response: HTTPURLResponse -> ScrollerFeedLoader.Result {
+        do {
+            let items = try ScrollerFeedMapper.map(data, from: response)
+            return .success(items.toModel())
+        } catch {
+            return .failure(error)
+        }
+    }
+}
+    
+private extension Array where Element == RemoteFeedImage {
+        func toModel() -> [FeedImage] {
+            return map { FeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url) }
+        }
 }
