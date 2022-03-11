@@ -44,7 +44,7 @@ public final class RemoteScrollerFeedLoader: ScrollerFeedLoader {
 }
     
 private extension Array where Element == RemoteFeedImage {
-        func toModel() -> [FeedImage] {
-            return map { FeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url) }
+        func toModel() -> [ScrollerFeedImage] {
+            return map { ScrollerFeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url) }
         }
 }
